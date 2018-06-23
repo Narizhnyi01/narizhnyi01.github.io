@@ -1,0 +1,452 @@
+@import "vars"
+@import "fonts"
+
+body
+	font-family: $roboto
+	font-weight: 400
+	font-size: 16px
+	line-height: 24px
+	color: #fff
+	ul
+		list-style: none
+		padding: 0
+		margin: 0
+	h1, h2, h3, h4, h5, h6, p
+		margin: 0
+	a	
+		color: inherit
+		&:active,
+		&:focus,
+		&:hover,
+		&:visited
+			text-decoration: none
+			color: inherit
+.container
+	max-width: 1056px
+.header
+	background-image: url("../img/bg_header.jpg") 
+	background-size: cover
+	min-height: 660px	
+.top_header
+	overflow: hidden
+	padding-top: 30px
+	font-family: $monster
+	font-weight: 400
+	color: #b4c0c0
+	.logo
+		float: left
+		display: block
+		padding-top: 6px		
+	.phone
+		padding-left: 70px
+		float: left
+		padding-top: 7px
+	.menu	
+		ul
+			float: right	
+			padding-top: 3px
+			li
+				text-transform: uppercase
+				display: inline-block
+				a 
+					display: inline-block
+					transition: all .3s
+					padding: 6px 15px
+					background-color: transparent
+				a:hover
+					background-color: #6e8484
+					color: #fff
+					padding: 6px 15px
+					outline: none
+					border-radius: 2px
+			li + li
+				padding-left: 5px	
+.btn_menu
+	width: 50px
+	height: 23px
+	outline: none
+	border: none
+	background-color: transparent
+	display: none
+	margin-top: 8px
+
+.btn_row
+	height: 3px
+	background-color: #6fb048
+	margin-bottom: 5px
+	display: block
+
+.title
+	h1
+		font-size: 38px
+		padding-top: 250px
+		padding-bottom: 45px
+	
+	p
+		font-size: 16px
+		max-width: 520px
+.btn
+	padding-top: 25px
+	a	
+		background-color: #6fb048
+		padding: 10px 43px
+		border-radius: 2px
+.main
+	background-color: #fff
+	min-height: 990px
+
+.top_main_title
+	text-align: center
+	font-size: 32px
+	color: #0f5f5c
+	padding-top: 95px
+	line-height: 35px
+.line_1
+	width: 66px
+	height: 1px
+	background-color: #6fb048
+	margin-left: 50%
+	margin-top:  20px	
+	margin: 20px auto 0
+.main_text
+	text-align: center
+	color: #83a7a5	
+	padding-top: 20px
+	font-size: 15px
+	max-width: 545px
+	margin: 0 auto
+.icon_title_1 li,
+.icon_title_2 li,
+.icon_title_3 li
+	font-family: 'icomoon'
+	font-size: 50px
+	color: #6fb048
+	padding-top: 75px
+	text-align: center
+.icon_title_1 li::before
+	content: '\ea54'	
+.icon_title_2 li::before
+	content: '\e900'
+.icon_title_3 li::before
+	content: '\e90a'
+.title_icons
+	text-align: center
+	font-weight: 400
+	color: #0f5f5c
+	padding-top: 25px
+.text_icon
+	text-align: center
+	font-weight: 400
+	color: #83a7a5
+	font-size: 15px
+	padding-top: 10px
+	padding-bottom: 50px
+.icons_info
+	padding-top: 50px
+
+.title_icons_info_1,
+.title_icons_info_2,
+.title_icons_info_3,
+.title_icons_info_4
+	font-weight: 400
+	color: #0f5f5c
+	position: relative
+	padding-left: 40px
+.title_icons_info_2
+	padding-left: 35px	
+.title_icons_info_1::before,
+.title_icons_info_2::before,
+.title_icons_info_3::before,
+.title_icons_info_4::before
+	font-family: 'icomoon'
+	font-size: 30px
+	position: absolute
+	left: 0
+	color: #6fb048
+.title_icons_info_1::before
+	content: "\e902"
+.title_icons_info_2::before
+	content: "\e901"
+.title_icons_info_3::before
+	content: "\e997"
+.title_icons_info_4::before	
+	content: '\e909'
+	font-size: 35px
+.text_icons_info	
+	font-weight: 400
+	color: #83a7a5
+	font-size: 15px
+	padding-top: 25px
+
+.content
+	background: url(../img/bg_cont.jpg) no-repeat top center
+	background-size: cover
+	min-height: 865px
+	
+.top_content_title
+	font-size: 32px
+	color: #0f5f5c
+	padding-top: 155px
+.content_text
+	color: #83a7a5
+	font-size: 14px
+	padding-top: 25px
+.check_text
+	color: #83a7a5
+	font-size: 14px
+	padding-top: 20px
+	position: relative
+	padding-left: 30px
+.check_text::before
+	content: "\e90c" 
+	font-family: 'icomoon'
+	width: 25px
+	height: 25px
+	position: absolute
+	left: 2px	
+	border: 1px solid #83a7a5
+	border-radius: 50%
+	text-align: center
+.workers
+	min-height: 680px
+.text_work	
+	font-family: $merri
+	font-size: 22px
+	line-height: 40px
+	color: #83a7a5
+	padding-top: 240px
+	
+.name_work
+	font-size: 14px
+	color: #83a7a5
+	margin-top: -80px
+.name_work span
+	color: #6fb048
+	font-weight: 700
+
+.women
+	padding-top: 140px
+
+.map
+	min-height: 505px
+	background: url(../img/map.png) no-repeat right center
+	background-color: #eef1ec
+.map img
+	float: right
+	padding-top: 60px
+	image: no-repeat
+.name_plan
+	font-size: 15px
+	color: #6fb048
+	text-align: center
+	font-weight: 700
+.btn_1
+	padding-top: 20px
+	padding-left: 8px
+	text-align: center
+.btn_1 a
+	text-align: center
+	padding: 10px 25px
+	border-radius: 2px
+	background-color: #83a7a5
+	transition: all .3s
+
+.btn_1 a:hover
+	background-color: #6fb048
+.plan
+	display: overflow
+.price_plan
+	font-size: 65px
+	font-family: $monster
+	color: #0f5f5c
+	text-align: center	
+	padding-top: 20px
+	font-weight: 700
+.price_plan span
+	font-size: 14px
+	font-family: $roboto
+	font-weight: 400
+.text_plan
+	text-align: center
+.text_plan p
+	font-size: 14px
+	color: #83a7a5
+	max-width: 128px
+	margin: 0 auto 	
+.title_plan
+	font-size: 22px
+	color: #0f5f5c
+	text-align: center
+	padding-top: 115px
+.text_p
+	// float: left	
+	margin-left: -1px
+	border: 1px solid #c1d3d2
+	padding: 30px 28px 30px 28px 
+.help ul
+		text-align: center
+		padding-top: 50px
+		li	
+			color: #6fb048
+			font-size: 45px
+			transform: rotate(45deg)
+.help_title
+	color: #6fb048
+	font-size: 32px
+	font-weight: 300
+	text-align: center
+	padding-top: 20px
+.text_123
+	// display: inline-block	
+	display: flex
+	// align-items: center
+	justify-content: center
+	padding-top: 30px
+.text_email
+	color: #0f5f5c
+	text-align: center
+	font-size: 18px
+	font-weight: 700
+	padding-top: 45px
+.donwload
+	background: url(../img/bg_footer.jpg) no-repeat center top
+	height: 200px
+	margin-top: 100px
+	background-size: cover
+.title_donwload
+	font-size: 28px
+	color: #0f5f5c
+	padding-top: 78px
+	float: left
+.title_donwload
+	span
+		font-size: 15px
+		color: #83a7a5
+
+#btn_donw
+	float: right
+	padding-top: 80px
+	text-transform: uppercase
+	font-size: 13px
+footer img
+	padding-top: 100px
+
+.footer_mail
+	color: #83a7a5
+	font-size: 13px
+	padding-top: 20px
+	span
+		color: #0f5f5c
+.phone_footer
+	color: #83a7a5
+	font-size: 13px
+.adr_footer
+	color: #83a7a5
+	font-size: 13px	
+	span
+		padding-left: 15px
+.comany_footer
+	color: #0f5f5c
+	font-size: 13px
+	font-weight: 500
+	padding-top: 100px
+.text_company
+	color: #83a7a5
+	font-size: 13px
+	max-width: 70px
+.text_company_1
+	color: #83a7a5
+	font-size: 13px
+	max-width: 87px
+.news
+	color: #0f5f5c
+	padding-top: 100px
+	font-size: 13px
+	font-weight: 500
+.text_company_2	
+	color: #83a7a5
+	font-size: 13px	
+footer input
+	font-size: 13px
+	background-color: #eef1ec
+	border: none
+	color: #83a7a5
+	margin: 0 auto;
+	margin-top: 10px;
+	outline: none;
+	padding-left: 10px;
+	position: relative
+footer input:after
+
+	content: "\e90c" 
+	font-family: 'icomoon'
+	color: #000
+	position: absolute
+.border_footer
+	height: 1px
+	max-width: 1056px
+	margin-top: 60px
+	background-color: #eef1ec
+.footer_text
+	float: left
+	color: #83a7a5
+	font-size: 12px
+	padding-top: 20px	
+.soc_icons ul
+	font-family: 'icomoon'
+	float: right
+	font-size: 30px
+	padding-top: 20px
+	padding-bottom: 20px
+	li 
+		display: inline-block
+.soc_icons li:first-child a::before
+	content: "\e906"
+	color: #55acee
+.soc_icons li:nth-child(2) a::before
+	content: "\e905"
+	color: #3b5998
+.soc_icons li:nth-child(3) a::before
+	content: "\e907"
+	color: #3f729b
+.soc_icons li:nth-child(4) a::before
+	 content: "\e908"
+	 color: #ea4c89
+.soc_icons li:last-child a::before
+	content: "\e904"
+	color: #333
+
+
+
+
+.mfp-wrap .mfp-content
+	width: 390px
+	background-color: #eef1ec
+	border: 3px solid #6fb048
+	text-align: center
+.mfp-wrap .mfp-content h4
+	text-transform: uppercase
+	padding: 20px 0px 10px
+	font-size: 18px
+	color: #0f5f5c
+
+.mfp-wrap .mfp-content input[type="text"]
+	width: 90%
+	height: 45px
+	font-size: 16px
+	margin: 0 auto
+	margin-bottom: 15px
+	outline: none
+	border-width: 2px
+	padding-left: 10px
+	color: #0f5f5c
+.mfp-wrap .mfp-content input[type="submit"]
+	width: 80%
+	margin-bottom: 10px
+	background-color: #6fb048
+	border: none
+	outline: none
+	text-transform: uppercase
+	color: #0f5f5c
+	height: 40px
+@import "media"

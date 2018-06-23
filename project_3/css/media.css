@@ -137,6 +137,10 @@
 	.news .slider_box::before{
 		left: 20px;
 	}
+	#soc_footer ul{
+		float: none;
+		text-align: center;
+	}
 }
 
 /* Custom, iPhone Retina */

@@ -207,7 +207,6 @@ body{
 	max-width: 620px;
 	margin: 0 auto;
 }
-
 .btn_slider{
 	color: #fff;
 	padding-bottom: 50px;
@@ -281,7 +280,6 @@ body{
 .btn_section{
 	float: right;
 	padding: 32px 46px 0 0;
-
 }
 .btn_section a{
 	display: inline-block;
@@ -370,11 +368,6 @@ body{
 .btn_info{
 	color: #fff;
 }
-
-
-
-
-
 .consultation{
 	padding: 35px 0px 0px;
 }
@@ -433,9 +426,6 @@ body{
 	line-height: 40px;
 	top: -1px;
 }
-
-
-
 .items_box{
 	padding: 55px 0px 40px;
 	background: url(../img/bcg_box.jpg) top center no-repeat;
@@ -519,7 +509,6 @@ body{
 	font-style: italic;
 	font-weight: 500;
 }
-
 .img_mobile{
 	display: inline-block;
 	position: relative;
@@ -575,18 +564,12 @@ body{
 	font-size: 16px;
 	line-height: 18px;
 	padding: 15px 0px;\
-
 }
 .news .items_news p{
 	margin: 0;
 	color: #5e5e5e;
 	line-height: 18px;
 }
-
-
-
-
-
 .top_footer{
 	background-color: #595959;
 	padding-bottom: 25px;
@@ -624,7 +607,6 @@ body{
 	float: none;
 	margin-bottom: 20px;
 }
-
 .top_footer .adr::before{
 	content: "\f041";
 	font-family: 'icomoon';
