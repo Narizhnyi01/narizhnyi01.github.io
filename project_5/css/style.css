@@ -1,0 +1,371 @@
+/*--------------default style---------*/
+body{
+	font-family: 'Fira Sans';
+	font-weight: 500;
+}
+body ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6, body p {
+  margin: 0;
+
+}
+
+
+
+body a:active, body a:focus, body a:hover, body a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+/*--------------end default style---------*/
+/*--------------------start header style-------------*/
+.header{
+	background: #fff url(../img/background-33.png) ;
+	min-height: 890px;
+    background-position: center bottom;
+    background-attachment: scroll;
+    background-size: 1200px;
+    background-repeat: no-repeat;	
+}
+.top_header{
+	overflow: hidden;
+}
+.logo img{
+	max-width: 180px;
+	width: 180px;
+	height: auto;
+	padding-left: 8px;
+	padding-top: 8px;
+	float: left;
+}
+.menu{
+	width: 600px;
+    list-style: none;
+    padding: 0;
+    font-size: 24px;
+    margin: 0 auto;
+    text-align: center;
+}
+nav  li {
+	display: inline-block;
+	color: #7fb9b5;
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 30px;
+}
+nav  li + li{
+	padding-left: 25px;
+}
+#logo img{
+	max-width: 180px;
+	width: 180px;
+	height: auto;
+	padding-left: 8px;
+	padding-top: 8px;
+	display: none;
+	margin: 0 auto;
+}
+#btn{
+	display: none;	
+}
+#btn a{
+	text-align: center;
+	margin: 0 auto;
+}
+.btn_menu{
+	width: 50px;
+	height: 23px;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	display: none;
+	margin-top: 4px;
+}
+.btn_row{
+	height: 3px;
+	background-color: #7fb9b5;
+	margin-bottom: 5px;
+	display: block;
+}
+.btn{
+	float: right;
+	margin-top: -23px;
+	height: 40px;
+    font-size: 14px;
+    color: #7fb9b5;
+	margin-right: 10px;
+}
+.btn a{
+    border: 1.5px solid #7fb9b5;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.header_content{
+	padding-top: 90px;	
+}
+.title_header h1{
+	color: #7fb9b5;
+	font-size: 55px;
+	line-height: 1.15;
+	font-weight: 600;
+	padding-bottom: 50px;
+}
+.title_header p{
+	color: #debe07;
+	font-size: 30px;
+	line-height: 1.25;
+	font-weight: 600;
+}
+.header_items{
+	padding-top: 40px;
+	padding-left: 20px;
+	color: #7fb9b5;
+	font-size: 26px;
+	overflow: hidden;
+}
+.header_items img{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-top: 4px;
+}
+.item_2,
+.item_3{
+	padding-top: 20px;
+}
+.item_1 p,
+.item_2 p,
+.item_3 p{
+	padding-left: 80px;
+	padding-top: 10px;
+}
+#item_42{
+	max-width: 430px;
+}
+#item_42 img{
+	margin-top: 20px;
+}
+/*--------------------end header style-------------*/
+/*--------------------start content style-------------*/
+.content img{
+	height: 60px;
+	width: 60px;
+	display: block;
+  	margin: 0 auto;
+  	margin-top: 75px;
+}
+.item_cont p{
+	text-align: center;
+	padding-top: 30px;
+	color: #7fb9b5;
+    font-size: 18px;
+    font-weight: 300;
+	margin: 0 auto;
+	max-width: 260px;
+}
+/*--------------------end content style-------------*/
+/*--------------------start rating style-------------*/
+.rating{
+	padding-bottom: 70px;
+}
+.title_rating{
+	color: #7fb9b5;
+	text-align: center;
+	padding-top: 70px;
+}
+.title_rating h2{
+	font-weight: 700;
+	font-size: 38px;
+	
+}
+.title_rating p{
+	font-size: 26px;
+}
+.number_rating{
+	text-align: center;
+	color: #888;
+	font-weight: 700;
+	font-size: 30px;
+	margin-top: 110px;
+}
+.line_rating{
+	height: 3px;
+	margin: 14px 20px 14px 0;
+	background-color: #888;
+}
+ .line_2{
+	background-color: #7fb9b5;
+}
+.line_3{
+	background-color: #debe07;
+}
+.line_4{
+	background-color: #dd5724;
+}
+.text_rating{
+	font-size: 16px;
+	color: #888;
+	padding-top: 5px;
+}
+/*--------------------end rating style-------------*/
+/*--------------------start progress style-------------*/
+.items_progress{
+	margin-bottom: 91px;
+	height: 190px;
+}
+.progress{
+	padding-top: 150px;
+	background-color: #7fb9b5;
+}
+.title_progress{
+	font-size: 38px;
+	color: #fff;
+	text-align: center;
+}
+.date_progress{
+	font-size: 18px;
+	color: #fff;
+	float: left;
+	width: 330px;
+	text-align: right;
+	padding-top: 40px;
+}
+.circle{
+	width: 16px;
+	height: 16px;
+	border: 1.5px solid #fff;
+	border-radius: 50%;
+	margin-left: 350px;
+	margin-top: 44px;
+	position: absolute;
+}
+.line_progress{
+	width: 2px;
+	height: 245px;
+	background-color: #fff;
+	position: absolute;
+	margin-left: 357px;
+	margin-top: 70px;	
+}
+.progress_1{
+	margin-left: 58px;
+    float: left;
+    margin-top: 35px;
+    font-size: 26px;
+    color: #ffffff;
+}
+.progress_1 p{
+	font-size: 18px;
+	padding-top: 20px;
+}
+.link_progress{
+	padding-top: 91px;
+    padding-left: 390px;
+    font-size: 16px;
+    color: #fff;
+}
+.link_progress span{
+	color: transparent;
+	transition: all 0.4s;
+}
+.link_progress span:hover{
+	color: red;
+}
+.text_progress{
+	font-size: 18px;
+    color: #fff;
+    max-width: 710px;
+    margin-left: 390px;
+    margin-top: 30px;	
+}
+.item_prog_2 .text_progress{
+	padding-top: 100px;
+	padding-bottom: 45px;
+}
+.item_prog_3 .text_progress{
+	padding-bottom: 50px;
+	padding-bottom: 27px;
+}
+.item_prog_5 .text_progress{
+	padding-top: 100px;
+	padding-bottom: 45px;
+}
+.item_prog_7{
+	margin-bottom: -60px;
+}
+#point{
+	margin-left: 80px;	
+}
+#full_circle{
+	background-color: #fff;
+}
+/*--------------------end progress style-------------*/
+/*--------------------start privilege style-------------*/
+.privilege{
+	padding-bottom: 100px;
+}
+.title_privilege{
+	text-align: center;
+	font-size: 38px;
+	color: #525252;
+	padding-top: 40px;
+}
+.text_privilege{
+    color: #525252;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 70px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.text_privilege p{
+	font-size: 16px;
+	padding-top: 20px;
+	font-weight: 300;
+}
+/*--------------------end privilege style-------------*/
+/*--------------------start footer style-------------*/
+.footer{
+	padding-top: 75px;
+	padding-bottom: 90px;
+	background-color: #7fb9b5;
+}
+.soc_icons{
+	padding-top: 30px;
+
+}
+.soc_icons li{
+	font-size: 25px;
+	display: inline-block;
+	color: #525252;
+}
+.soc_icons li + li{
+	padding-left: 5px;
+}
+.soc_icons a{
+	transition: all 0.3s;
+}
+.soc_icons a:hover{
+	color: #fff;
+}
+.footer_text{
+	color: #525252;
+	margin-top: 21px;
+	font-size: 12px;
+	padding-top: 10px;
+}
+.title_footer{
+	color: #525252;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-top: 30px;
+}
+.footer_help li{
+	font-size: 14px;
+	color: #fff;
+	padding-top: 10px;
+}
+/*--------------------end footer style-------------*/
