@@ -1,10 +1,10 @@
 $(window).scroll(function () {
 
-	var st = $(this).scrollTop();
+  var st = $(this).scrollTop();
 
-	$('.header' ).css({
-		"transform" : "translate(0%, " + st/2 + "%"
-	});
+  $('.header' ).css({
+    "transform" : "translate(0%, " + st/2 + "%"
+  });
 
 
 });
@@ -33,12 +33,12 @@ $('.slider').slick({
 
   breakpoint: 768,
   settings: {
-  	infinite: true,
-  	slidesToShow: 1,
-  	slidesToScroll: 1,
- 	dots: true,
- 	arrows: false
- }	
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  dots: true,
+  arrows: false
+ }  
 
 }]
 
