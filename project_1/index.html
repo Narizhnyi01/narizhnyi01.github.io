@@ -27,11 +27,11 @@
 			</nav>
 			
 			<div class="header">
-				<div class="title animated bounceInDown">
+				<div class="title animated fadeInDownBig">
 					HALCYON<span>DAYS</span>
 				</div>
-				<p class="text_header animated bounceInDown">An exclusive HTML5/CSS3 freebie by Peter Finlan, for <span>Codrops.</span></p>
-				<div class="btn animated bounceInUp"><a href="#">learn more</a></div>
+				<p class="text_header animated fadeInDown">An exclusive HTML5/CSS3 freebie by Peter Finlan, for <span>Codrops.</span></p>
+				<div class="btn animated fadeInUpBig"><a href="#">learn more</a></div>
 			</div>
 
 		</div>
@@ -48,32 +48,38 @@
 	</section>
 	<section class="love">
 		<div class="container">
-			<div class="title_default">LOVE WHAT YOU DO, AND YOU’LL DO IT WELL </div>
+			<div class="title_default">LOVE WHAT YOU DO, AND YOU’LL DO IT WELL</div>
 			<div class="line_default">
 				. . . . . . . . . . . . . . . . . . . . . . . . .<i></i>. . . . . . . . . . . . . . . . . . . . . . . . .  
 			</div>
 			<div class="line_default_mobile">
 				. . . . . . . . . . <i></i>. . . . . . . . . . 
 			</div>
-			<div class="love_img">
+			<div class="love_img" data-wow-offset="450">
 				<div class="row ">
 					<div class="col-md">
-						<img src="img/cirecle_pc.png" alt="">
-						<div class="title_love">DIGITAL DESIGN //</div>
-						<div class="line_love"></div>
-						<div class="text_default">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+						<div class="items_love wow zoomIn" data-wow-offset="450"">
+							<img src="img/cirecle_pc.png" alt="">
+							<div class="title_love">DIGITAL DESIGN //</div>
+							<div class="line_love"></div>
+							<div class="text_default">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+						</div>
 					</div>
 					<div class="col-md">
-						<img src="img/circle_script.png" alt="">
-						<div class="title_love">WEB DEVELOPMENT //</div>
-						<div class="line_love"></div>
-						<div class="text_default">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+						<div class="items_love wow zoomIn" data-wow-offset="450"">
+							<img src="img/circle_script.png" alt="">
+							<div class="title_love">WEB DEVELOPMENT //</div>
+							<div class="line_love"></div>
+							<div class="text_default">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+						</div>
 					</div>
 					<div class="col-md">
-						<img src="img/circle_love.png" alt="">
-						<div class="title_love">WE LOVE YOU //</div>
-						<div class="line_love"></div>
-						<div class="text_default">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+						<div class="items_love wow zoomIn" data-wow-offset="450">
+							<img src="img/circle_love.png" alt="">
+							<div class="title_love">WE LOVE YOU //</div>
+							<div class="line_love"></div>
+							<div class="text_default">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -82,7 +88,7 @@
 	<section class="problem">
 		<div class="title_problem">I GOT 99 PROBLEMS</div>
 		<div class="text_problem">BUT <span>DESIGN</span> ‘AINT ONE</div>
-		<div class="down"><a class="icon-keyboard_arrow_down" href="#"></a></div>
+		<div class="down" id="down"><a class="icon-keyboard_arrow_down" href="#portfolio" ></a></div>
 	</section>
 	<section class="portfolio" id="portfolio">
 		<div class="container">
@@ -282,12 +288,14 @@
 		</div>
 	</section>
 	<section class="send">
-		<div class="title_send">
-			<i class="icon-paper-plane"></i>
-			<div class="text_send">SUBSCRIBE TO STAY IN THE LOOP</div>
+		<div class="send_items wow zoomInDown" data-wow-offset="420">
+			<div class="title_send">
+				<i class="icon-paper-plane"></i>
+				<div class="text_send">SUBSCRIBE TO STAY IN THE LOOP</div>
+			</div>
+			<input type="text" placeholder="">
+			<div class="btn_send"><a href="#">send</a></div>
 		</div>
-		<input type="text" placeholder="">
-		<div class="btn_send"><a href="#">send</a></div>
 	</section>
 	<section class="contact" id="contact">
 		<div class="container">
@@ -296,28 +304,34 @@
 			<div class="line_default_mobile">. . . . . . . . . . <i></i>. . . . . . . . . .</div>
 			<div class="row">
 				<div class="col-md">
-					<div class="cards">
-						<i class="icon-location"></i>
-						<div class="title_card">ADDRESS</div>
-						<div class="text_card">Level 6, 23 Pitt St, Sydney</div>
+					<div class="contact_items wow zoomIn" data-wow-offset="250">
+						<div class="cards">
+							<i class="icon-location"></i>
+							<div class="title_card">ADDRESS</div>
+							<div class="text_card">Level 6, 23 Pitt St, Sydney</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-md">
-					<div class="cards">
-						<i class="icon-mobile"></i>
-						<div class="title_card">Phone</div>
-						<div class="text_card">+61 9 211 3741</div>
+					<div class="contact_items wow zoomIn" data-wow-offset="250">
+						<div class="cards">
+							<i class="icon-mobile"></i>
+							<div class="title_card">Phone</div>
+							<div class="text_card">+61 9 211 3741</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-md">
-					<div class="cards">
-						<i class="icon-paper-plane"></i>
-						<div class="title_card">email</div>
-						<div class="text_card">hey@halcyon.com.au</div>
+					<div class="contact_items wow zoomIn" data-wow-offset="250">
+						<div class="cards">
+							<i class="icon-paper-plane"></i>
+							<div class="title_card">email</div>
+							<div class="text_card">hey@halcyon.com.au</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="soc_icons">
+			<div class="soc_icons wow fadeInUpBig">
 				<ul>
 					<li><a href="#" class="icon-twitter-with-circle"></a></li>
 					<li><a href="#" class="icon-dribbble-with-circle"></a></li>
@@ -347,6 +361,9 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="js/libs.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 	<script src="js/main.js"></script>
 </body>
 </html>

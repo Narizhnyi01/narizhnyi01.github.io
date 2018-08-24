@@ -44,7 +44,7 @@ $('.slider').slick({
 
 });
 
-  $("#menu, #top").on("click","a", function (event) {
+  $("#menu, #down").on("click","a", function (event) {
         //отменяем стандартную обработку нажатия по ссылке
         event.preventDefault();
         //забираем идентификатор бока с атрибута href

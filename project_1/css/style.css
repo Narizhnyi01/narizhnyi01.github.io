@@ -182,8 +182,8 @@ header .header .text_header {
   font-size: 15px;
   color: #8c9398;
   letter-spacing: 1px;
-  -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 header .header .text_header span {
@@ -193,8 +193,8 @@ header .header .text_header span {
 
 .menu {
   padding-top: 50px;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  -webkit-animation-delay: 1.8s;
+          animation-delay: 1.8s;
 }
 
 .menu ul {
@@ -462,6 +462,8 @@ header .header .text_header span {
 
 .soc_icons {
   text-align: center;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 
 .soc_icons ul {
@@ -653,6 +655,10 @@ footer .footer_text .text_footer_r span {
   }
   .problem .down a {
     margin-top: 10px;
+  }
+  footer .footer_text .text_footer_r {
+    max-width: 300px;
+    padding-top: 10px;
   }
 }
 
