@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Minimalistic contact form with infield, floating labels</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Montserrat:300,600'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <main>
+  <form action='' class='form'>
+    <p class='field required half'>
+      <label class='label required' for='name'>Name</label>
+      <input class='text-input' id='name' name='name' required type='text'>
+    </p>
+    <p class='field required half'>
+      <label class='label' for='email'>E-mail</label>
+      <input class='text-input' id='email' name='email' required type='email'>
+    </p>
+    <p class='field'>
+      <label class='label' for='message'>Message</label>
+      <textarea class='textarea' cols='50' id='message' name='message' required rows='4'></textarea>
+    </p>
+    <p class='field'>
+      <input class='button' type='submit' value='Send message'>
+    </p>
+  </form>
+</main>
+<footer id='footer' role='contentinfo'>
+  <div class='container'>
+    <a class='logo' href='https://codepen.io/collection/XRoxGR' rel='home'>Calibration theme</a>
+    <a class='copy' href='https://mobilemarkup.com'>&copy; mobileMarkup.com</a>
+  </div>
+</footer>
+  <script src='js/xgrmnr.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
