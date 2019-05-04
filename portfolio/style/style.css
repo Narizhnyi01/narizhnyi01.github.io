@@ -590,6 +590,10 @@ body {
   z-index: 2;
 }
 
+body.active {
+  overflow: hidden !important;
+}
+
 .cocntainer {
   padding: 0 3%;
   margin: 0 auto;
@@ -791,7 +795,7 @@ header.sticky #box_btn_menu span {
       -ms-flex-align: center;
           align-items: center;
   overflow: hidden;
-  height: 86vh;
+  height: 88vh;
 }
 
 .main_box .text {
@@ -805,7 +809,6 @@ header.sticky #box_btn_menu span {
 
 .about {
   height: 150vh;
-  background: #000000;
 }
 
 footer {
