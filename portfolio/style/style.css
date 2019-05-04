@@ -588,6 +588,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   position: relative;
   z-index: 2;
+  overflow-y: scroll !important;
 }
 
 body.active {
@@ -809,6 +810,7 @@ header.sticky #box_btn_menu span {
 
 .about {
   height: 150vh;
+  background: #000000;
 }
 
 footer {
@@ -834,6 +836,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
+  z-index: 0;
 }
 
 .contact h2 {
