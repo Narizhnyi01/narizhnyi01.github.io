@@ -809,6 +809,7 @@ header.sticky #box_btn_menu span {
 
 .about {
   height: 150vh;
+  background: #000000;
 }
 
 footer {
@@ -823,6 +824,7 @@ footer {
 
 .about h2 {
   font-size: 45px;
+  color: #ffffff;
   text-align: center;
   text-transform: uppercase;
 }
@@ -833,7 +835,6 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: -2;
 }
 
 .contact h2 {
