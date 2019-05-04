@@ -1,5 +1,6 @@
 @import '_style-reset.scss'
 @import 'form.scss'
+@import 'patricles.scss'
 body
     // font-family: 'Roboto', sans-serif
     font-family: 'Open Sans', sans-serif
@@ -143,12 +144,16 @@ header.sticky
     display: flex
     justify-content: center
     align-items: center
+    overflow: hidden
     height: 86vh
+    
     .text   
         font-size: 60px
         font-weight: 400
         color: #000000
         font-family: 'Open Sans', sans-serif
+        text-align: center
+        margin-bottom: 100px
 .about
     height: 150vh
     
@@ -158,10 +163,19 @@ footer
     
 .about
     padding-top: 300px
+    position: relative
     h2 
         font-size: 45px
         text-align: center
         text-transform: uppercase
+    #particles-js
+        position: absolute
+        top: 0
+        bottom: 0
+        left: 0
+        right: 0  
+        z-index: -2
+
 .contact 
     h2 
         font-size: 45px

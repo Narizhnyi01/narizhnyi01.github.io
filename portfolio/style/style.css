@@ -581,6 +581,9 @@ a {
   font-weight: 600;
 }
 
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
 body {
   font-family: 'Open Sans', sans-serif;
   position: relative;
@@ -791,6 +794,7 @@ header.sticky #box_btn_menu span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  overflow: hidden;
   height: 86vh;
 }
 
@@ -799,6 +803,8 @@ header.sticky #box_btn_menu span {
   font-weight: 400;
   color: #000000;
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-bottom: 100px;
 }
 
 .about {
@@ -812,12 +818,22 @@ footer {
 
 .about {
   padding-top: 300px;
+  position: relative;
 }
 
 .about h2 {
   font-size: 45px;
   text-align: center;
   text-transform: uppercase;
+}
+
+.about #particles-js {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -2;
 }
 
 .contact h2 {
