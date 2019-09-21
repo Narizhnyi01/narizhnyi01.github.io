@@ -123,6 +123,9 @@ a{
    display: flex;
    justify-content: space-between;
 }
-@media screen and (max-width: 500px) {
-   
+@media screen and (max-width: 350px) {
+   .col_img{
+      margin-left: 0;
+      margin-right: 0;
+   }
 }
