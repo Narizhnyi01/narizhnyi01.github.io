@@ -1,0 +1,128 @@
+*{
+   box-sizing: border-box;
+}
+body{
+   margin: 0;
+   padding: 0;
+   line-height: 1;
+   font-family: sans-serif;
+   min-height: 100vh;
+   background-color: #ccc;
+}
+a{
+   text-decoration: none;
+}
+.container{
+   max-width: 1235px;
+   margin-left: auto;
+   margin-right: auto;
+   height: 100%;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+.row_custom{
+   display: flex;
+   flex-wrap: wrap;
+}
+.images{
+   padding-top: 200px;
+   padding-bottom: 200px;
+}
+.col_img{
+   border: 5px solid #fff;
+   width: 265px;
+   height: 265px;
+   position: relative;
+   overflow: hidden;
+   margin: 18px;
+}
+
+.col_img img{
+   width: 100%;
+   object-fit: cover;
+   height: 100%;
+}
+.col_img .row_custom{
+   justify-content: space-between;
+}
+.col_img .top_box{
+   position: absolute;
+   color: #fff;
+   top: -100%;
+   left: 0;
+   right: 0;
+   background-color: rgba(0, 0, 0, 0.4);
+   padding: 20px 15px;
+   transition: all .4s;
+
+}
+.col_img .top_box .row_custom{
+   align-items: center;
+}
+.col_img .bot_box{
+   background-color: #fff;
+   position: absolute;
+   left: 0;
+   right: 0;
+   bottom: -100%;
+   padding: 28px 5px;
+   transition: all .4s;
+   font-weight: 300;
+}
+.col_img .top_box span:first-child{
+   width: 80%;
+}
+.col_img .top_box span:last-child{
+   width: 20%;
+}
+.col_img:hover .top_box{
+   top: 0;
+}
+.col_img:hover .bot_box{
+   bottom: 0;
+}
+.col_img .bot_box svg{
+   width: 16px;
+   height: 16px;
+   fill: #e6618c;
+}
+.col_img .bot_box svg:hover{
+   fill: #9e254c;
+}
+.col_img .bot_box .zoom_icon svg{
+   fill: #000000;
+}
+.col_img .bot_box .zoom_icon svg:hover{
+   fill: #9e254c;
+}
+.title_img{
+   font-weight: 600;
+   margin-bottom: 3px;
+}
+.col_img .post_icon{
+   display: flex;
+   align-items: center;
+}
+.col_img .post_icon span{
+   display: inline-block;
+   margin-left: 7px;
+   color: #9f9d9b;
+   font-size: 13px;
+}
+.icon_box{
+   display: flex;
+   align-items: flex-start;
+}
+.mess{
+   margin-left: 17px;
+}
+.row_top{
+   justify-content: center;
+}
+.title_img{
+   display: flex;
+   justify-content: space-between;
+}
+@media screen and (max-width: 500px) {
+   
+}
